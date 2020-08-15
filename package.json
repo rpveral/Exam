@@ -3,9 +3,10 @@
   "scripts": {
     "configure": "node-gyp configure",
     "build": "node-gyp build",
-    "test": "node index.js"
+    "test": "jest"
   },
   "devDependencies": {
+    "jest": "^26.4.0",
     "node-gyp": "^3.8.0"
   },
   "dependencies": {
