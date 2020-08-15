@@ -1,6 +1,6 @@
 #include "functions.h"
 #include "windows.h"
-//#pragma comment(lib, "user32.lib")
+#pragma comment(lib, "user32.lib")
 
 NAN_METHOD(monitor) {
 	int num = GetSystemMetrics(SM_CMONITORS);
